@@ -1,4 +1,3 @@
-
 "use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -22,7 +21,6 @@ import {
 } from "@/components/data/dashboardData";
 
 import InteractionStatus from "@/components/Dashboard/InteractionStatus";
-import RegionConcentration from "@/components/Dashboard/Map";
 import {
   botBehaviorData,
   iframeSizesData,
@@ -223,14 +221,8 @@ export default function DashboardPage() {
           <div className="grid grid-cols-1 gap-6">
             <DevicePerformance devices={devicePerformanceData} />
           </div>
-
-          <div className="">
-            <RegionConcentration />
-          </div>
         </TabsContent>
       </Tabs>
     </div>
   );
 }
-
-

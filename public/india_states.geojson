@@ -1,0 +1,26 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "State 1"
+        },
+        "geometry": {
+          "type": "Polygon"
+        
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "State 2"
+        },
+        "geometry": {
+          "type": "Polygon"
+        
+        }
+      }
+    ]
+  }
+  
